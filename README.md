@@ -1,4 +1,4 @@
-## My new Website   
+## My new Website
 
 Starting commands:
 
@@ -8,4 +8,6 @@ pnpm i @chackra-ui/react @emotion/react @emotion/styled framer-motion next react
 pnpm i -D eslint eslint-config-next prettier
 pnpm i -D typescript 
 pnpm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/react @types/node
+pnpm i @chakra-ui/icons
+
 ```
