@@ -16,6 +16,7 @@ import {
 import NextLink from 'next/link'
 import { ReactNode } from 'react'
 import Logo from './logo'
+import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({
   href,
@@ -87,6 +88,7 @@ const Navbar = (props: any) => {
 
         {/* @ts-ignore */}
         <Box flex={1} align="right">
+          <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton

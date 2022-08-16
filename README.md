@@ -9,5 +9,5 @@ pnpm i -D eslint eslint-config-next prettier
 pnpm i -D typescript 
 pnpm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/react @types/node
 pnpm i @chakra-ui/icons
-
+pnpm i @chakra-ui/theme-tools
 ```
