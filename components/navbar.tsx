@@ -81,8 +81,8 @@ const Navbar = (props: any) => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
+          <LinkItem href="/skills" path={path}>
+            Skills
           </LinkItem>
         </Stack>
 
@@ -99,13 +99,13 @@ const Navbar = (props: any) => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>Home</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
-                  <MenuItem as={Link}>Posts</MenuItem>
+                <NextLink href="/skills" passHref>
+                  <MenuItem as={Link}>Skills</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://github.com/Cristian1t">
                   View Source
