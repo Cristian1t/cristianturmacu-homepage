@@ -33,7 +33,7 @@ const Page = () => {
           Hello, I&apos;m a developer based in Verona, Italy.
         </Box>
 
-        <Box display={{ md: 'flex' }}>
+        <Box display={{ md: 'flex' }} my={'12'}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page/title">
               Cristian Turmacu
