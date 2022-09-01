@@ -1,5 +1,5 @@
 import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
-import { WorkGridItem } from '../components/grid-item'
+import { ProjectGridItem } from '../components/grid-item'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 
@@ -17,22 +17,22 @@ const Projects = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0}>
-            <WorkGridItem
+            <ProjectGridItem
               id="mosta-saloon"
               title="Mosta Saloon"
               thumbnail={thumbMostaSaloon}
             >
               A website for a local hair salon in Verona, Italy
-            </WorkGridItem>
+            </ProjectGridItem>
           </Section>
           <Section delay={0}>
-            <WorkGridItem
+            <ProjectGridItem
               id="ottica-elite"
               title="Ottica Elite"
               thumbnail={thumbOtticaElite}
             >
               A website for a local glasses shop in Verona, Italy
-            </WorkGridItem>
+            </ProjectGridItem>
           </Section>
         </SimpleGrid>
 
@@ -42,13 +42,13 @@ const Projects = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0}>
-            <WorkGridItem
+            <ProjectGridItem
               id="old-website"
               title="My previous portfolio"
               thumbnail={thumbMyOldWebsite}
             >
               My previous portfolio website
-            </WorkGridItem>
+            </ProjectGridItem>
           </Section>
         </SimpleGrid>
       </Container>

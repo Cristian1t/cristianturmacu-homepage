@@ -33,7 +33,7 @@ export const GridItem = ({
   </Box>
 )
 
-export const WorkGridItem = ({
+export const ProjectGridItem = ({
   children,
   id,
   title,

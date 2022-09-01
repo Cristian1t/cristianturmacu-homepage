@@ -34,6 +34,7 @@ const Logo = () => {
             fontFamily="M PLUS Rounded 1c"
             fontWeight="bold"
             ml={3}
+            fontSize={22}
           >
             Cristian Turmacu
           </Text>

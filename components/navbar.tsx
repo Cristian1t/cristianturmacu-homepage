@@ -1,9 +1,11 @@
 import { HamburgerIcon } from '@chakra-ui/icons'
 import {
   Box,
+  Button,
   Container,
   Flex,
   Heading,
+  Icon,
   IconButton,
   Link,
   Menu,
@@ -15,6 +17,7 @@ import {
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import { ReactNode } from 'react'
+import { IoLogoGithub } from 'react-icons/io5'
 import Logo from './logo'
 import ThemeToggleButton from './theme-toggle-button'
 
@@ -84,6 +87,19 @@ const Navbar = (props: any) => {
           <LinkItem href="/skills" path={path}>
             Skills
           </LinkItem>
+          <LinkItem href="/about" path={path}>
+            About
+          </LinkItem>
+          <Link href="https://github.com/Cristian1t" target="_blank">
+            <Button
+              variant="ghost"
+              height={'2rem'}
+              colorScheme="red"
+              leftIcon={<Icon as={IoLogoGithub} />}
+            >
+              Source
+            </Button>
+          </Link>
         </Stack>
 
         {/* @ts-ignore */}
@@ -106,6 +122,9 @@ const Navbar = (props: any) => {
                 </NextLink>
                 <NextLink href="/skills" passHref>
                   <MenuItem as={Link}>Skills</MenuItem>
+                </NextLink>
+                <NextLink href="/about" passHref>
+                  <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <MenuItem as={Link} href="https://github.com/Cristian1t">
                   View Source

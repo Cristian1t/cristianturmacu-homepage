@@ -4,11 +4,15 @@ import {
   Button,
   Container,
   Heading,
+  Icon,
   Image,
   Link,
+  List,
+  ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
+import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
@@ -131,6 +135,50 @@ const Page = () => {
             Going to the gym, reading books, playing video games, watching
             movies and series, listening to music.
           </Paragraph>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/Cristian1t" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  GitHub
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.instagram.com/cristianturmacu"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoInstagram} />}
+                >
+                  Instagram
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://twitter.com/CristianTurmacu" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoTwitter} />}
+                >
+                  Twitter
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>

@@ -1,5 +1,9 @@
 ## My new Website
 
+Website inspiration: https://www.youtube.com/c/devaslife
+
+3D Model: https://sketchfab.com/dr.badass2142
+
 Commands:
 
 ```bash
@@ -12,4 +16,6 @@ pnpm i @chakra-ui/icons
 pnpm i @chakra-ui/theme-tools
 pnmp i three
 pnpm i -D @types/three
+pnpm i react-icons
 ```
+
