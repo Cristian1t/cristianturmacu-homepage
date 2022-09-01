@@ -1,6 +1,6 @@
 ## My new Website
 
-Starting commands:
+Commands:
 
 ```bash
 pnpm -init
@@ -10,4 +10,6 @@ pnpm i -D typescript
 pnpm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin @types/react @types/node
 pnpm i @chakra-ui/icons
 pnpm i @chakra-ui/theme-tools
+pnmp i three
+pnpm i -D @types/three
 ```
