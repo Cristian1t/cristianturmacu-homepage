@@ -23,7 +23,7 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://mosta-saloon.it">
+            <Link href="https://mosta-saloon.it" target="_blank">
               mosta-saloon.it<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
             </Link>
           </ListItem>

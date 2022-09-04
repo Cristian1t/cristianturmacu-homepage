@@ -23,8 +23,11 @@ const Project = () => {
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="">
-              cristianturmacu.com<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
+            <Link
+              href="https://cristianturmacu-website.netlify.app/"
+              target="_blank"
+            >
+              Old Website<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
             </Link>
           </ListItem>
           <ListItem>
