@@ -1,4 +1,4 @@
-import { Box, Spinner } from '@chakra-ui/react'
+import { Box, Spinner, Text } from '@chakra-ui/react'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import * as THREE from 'three'
 import { OrthographicCamera, WebGLRenderer } from 'three'
@@ -133,21 +133,33 @@ const Computer = () => {
       ref={refContainer}
       className="computer"
       m="auto"
-      mt={['-20px', '-60px', '-120px']}
+      mt={['20px', '-60px', '-120px']}
       mb={['-40px', '-140px', '-200px']}
       w={['280', '480', '640']}
       h={['280', '480', '640']}
       position="relative"
     >
       {loading && (
-        <Spinner
-          size="xl"
+        <Box
           position="absolute"
-          left="50%"
           top="50%"
-          ml="calc(0px - var(--spinner-size) / 2"
-          mt="calc(0px - var(--spinner-size))"
-        />
+          left="50%"
+          transform="translate(-50%, -50%)"
+          display="flex"
+          flexDirection="column"
+          gap={2}
+          alignItems="center"
+        >
+          <Spinner
+            size="xl"
+            thickness="4px"
+            speed="0.65s"
+            emptyColor="cyan.200"
+            color="orange.500"
+            label="Loading..."
+          />
+          <Text>Loading 3d model...</Text>
+        </Box>
       )}
     </Box>
   )

@@ -12,7 +12,7 @@ const Projects = () => {
     <Layout title="Projects">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Latest projects... (WIP - will be updated soon)
+          Latest projects (WIP)
         </Heading>
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>

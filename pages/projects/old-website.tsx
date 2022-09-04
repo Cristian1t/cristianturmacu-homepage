@@ -6,38 +6,41 @@ import { Meta, ProjectImage, Title } from '../../components/project'
 
 const Project = () => {
   return (
-    <Layout title="Mosta Saloon">
+    <Layout title="Old Website">
       <Container>
         <Title>
-          Mosta Saloon <Badge>2022</Badge>
+          Old Website <Badge>2022</Badge>
         </Title>
         <P>
-          Mosta Saloon is a project that i built for a friend of mine. It&apos;s
-          a website for his barber shop. It has a simple design and it&apos;s
-          mobile friendly.
+          This is my previous website. It&apos;s made with Gatsby.js. It uses
+          GraphQL to fetch data from a a Contentful space and rendering it into
+          a React-table. Also using react-typist, react-icons and parallax.js.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Gatsby.js, Tailwind CSS, TypeScript, Framer Motion</span>
+            <span>Gatsby.js, Styled Components, GraphQl, Contentful</span>
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://mosta-saloon.it">
-              mosta-saloon.it<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
+            <Link href="">
+              cristianturmacu.com<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Source Code</Meta>
-            <Link href="https://github.com/Cristian1t" target="_blank">
-              Coming soon{' '}
+            <Link
+              href="https://github.com/Cristian1t/mywebsitev2"
+              target="_blank"
+            >
+              GitHub{' '}
             </Link>
           </ListItem>
         </List>
 
         <ProjectImage
-          src="/images/projects/mosta-saloon.png"
-          alt="Mosta Saloon"
+          src="/images/projects/old-website.png"
+          alt="Old Website"
         ></ProjectImage>
       </Container>
     </Layout>

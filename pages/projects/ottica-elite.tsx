@@ -6,25 +6,28 @@ import { Meta, ProjectImage, Title } from '../../components/project'
 
 const Project = () => {
   return (
-    <Layout title="Mosta Saloon">
+    <Layout title="Ottica Elite">
       <Container>
         <Title>
-          Mosta Saloon <Badge>2022</Badge>
+          Ottica Elite <Badge>2022</Badge>
         </Title>
         <P>
-          Mosta Saloon is a project that i built for a friend of mine. It&apos;s
-          a website for his barber shop. It has a simple design and it&apos;s
-          mobile friendly.
+          Ottica Elite is a project that i built for a local glasses shop.
+          It&apos;s a simple website with a modern design and it&apos;s mobile
+          friendly. It is built with Next.js, Tailwind CSS and TypeScript. I
+          used Gsap and React Transition Group for the animations.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Gatsby.js, Tailwind CSS, TypeScript, Framer Motion</span>
+            <span>
+              NextJs, Tailwind CSS, TypeScript, Gsap, React Transition Group
+            </span>
           </ListItem>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://mosta-saloon.it">
-              mosta-saloon.it<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
+            <Link href="">
+              Coming soon<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
             </Link>
           </ListItem>
           <ListItem>
@@ -36,8 +39,8 @@ const Project = () => {
         </List>
 
         <ProjectImage
-          src="/images/projects/mosta-saloon.png"
-          alt="Mosta Saloon"
+          src="/images/projects/wip.png"
+          alt="Ottica Elite"
         ></ProjectImage>
       </Container>
     </Layout>

@@ -12,7 +12,12 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import { IoLogoGithub, IoLogoInstagram, IoLogoTwitter } from 'react-icons/io5'
+import {
+  IoLogoGithub,
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoLogoTwitter
+} from 'react-icons/io5'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
@@ -35,7 +40,11 @@ const Page = () => {
 
         <Box display={{ md: 'flex' }} my={'12'}>
           <Box flexGrow={1}>
-            <Heading as="h2" variant="page/title">
+            <Heading
+              as="h2"
+              variant="page/title"
+              textAlign={{ base: 'center', md: 'left' }}
+            >
               Cristian Turmacu
             </Heading>
           </Box>
@@ -150,6 +159,20 @@ const Page = () => {
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
                   GitHub
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                href="https://www.linkedin.com/in/cristianturmacu"
+                target="_blank"
+              >
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  LinkedIn
                 </Button>
               </Link>
             </ListItem>

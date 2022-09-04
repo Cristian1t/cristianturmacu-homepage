@@ -90,7 +90,10 @@ const Navbar = (props: any) => {
           <LinkItem href="/about" path={path}>
             About
           </LinkItem>
-          <Link href="https://github.com/Cristian1t" target="_blank">
+          <Link
+            href="https://github.com/Cristian1t/cristianturmacu-homepage"
+            target="_blank"
+          >
             <Button
               variant="ghost"
               height={'2rem'}
@@ -126,7 +129,11 @@ const Navbar = (props: any) => {
                 <NextLink href="/about" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="https://github.com/Cristian1t">
+                <MenuItem
+                  as={Link}
+                  href="https://github.com/Cristian1t/cristianturmacu-homepage"
+                  target="_blank"
+                >
                   View Source
                 </MenuItem>
               </MenuList>
