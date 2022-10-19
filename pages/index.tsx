@@ -86,11 +86,11 @@ const Page = () => {
           </Box>
           <Paragraph>
             Currently i&apos;m working at{' '}
-            <NextLink href="/projects/trueblue">
-              <Link>TrueBlue</Link>
-            </NextLink>
-            , an italian company for digital solutions in the Customer
-            Engagement, BI and Artificial Intelligence fields.
+            <Link href="https://www.gft.com/" target="_blank">
+              GFT Technologies
+            </Link>
+            , a german company active in the information technology sector.
+            Mainly banking and insurance.
           </Paragraph>
         </Section>
 
@@ -129,9 +129,15 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Now working as a full-stack developer at TrueBlue, a company
-            specialized in digital solutions in the Customer Engagement, BI and
-            Artificial Intelligence fields in Verona, Italy
+            Worked for a few months as a full-stack developer at TrueBlue, a
+            company specialized in digital solutions in the Customer Engagement,
+            BI and Artificial Intelligence fields in Verona, Italy
+          </BioSection>
+          <BioSection>
+            <BioYear>2022</BioYear>
+            Now working as a full-stack developer at GFT Technologies, a german
+            company active in the information technology sector. Mainly banking
+            and insurance.
           </BioSection>
         </Section>
 

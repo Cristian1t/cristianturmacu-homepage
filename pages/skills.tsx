@@ -21,7 +21,8 @@ import {
   SiPostgresql,
   SiReact,
   SiTailwindcss,
-  SiTypescript
+  SiTypescript,
+  SiVuedotjs
 } from 'react-icons/si'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
@@ -48,7 +49,8 @@ const Skills = () => (
               Typescript
             </ListItem>
             <ListItem display="flex" alignItems="center">
-              <ListIcon as={SiAngular} color="red.500" /> Angular
+              <ListIcon as={SiAngular} color="red.500" />
+              <ListIcon as={SiVuedotjs} color="green.500" /> Angular / Vue
             </ListItem>
             <ListItem display="flex" alignItems="center">
               <ListIcon as={SiReact} color="blue.500" />
